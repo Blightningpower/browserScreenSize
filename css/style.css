@@ -1,0 +1,30 @@
+html, body {
+    min-height: 100vh;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#size {
+    font-size: 35px;
+    width: fit-content;
+    height: auto;
+    margin: auto;
+}
+
+.width {
+    color: red;
+}
+
+.height {
+    color: blue;
+}
